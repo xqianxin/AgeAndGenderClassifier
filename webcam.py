@@ -1,6 +1,5 @@
 import cv2
 import sys
-from CropFace import CropFace
 from test import AgeAndGenderClassifier
 
 cascPath = 'haarcascade_frontalface_default.xml'
