@@ -37,7 +37,7 @@ class AgeAndGenderClassifier:
                                channel_swap=(2,1,0),
                                raw_scale=255,
                                image_dims=(256, 256))
-        self.gender_net.set_mode_gpu()                       
+        #self.gender_net.set_mode_gpu()                       
     def getAgeAndGender(self, imgfile):
         
         
