@@ -1,6 +1,6 @@
 import cv2
 import sys
-from test import AgeAndGenderClassifier
+from age_gender_predict import AgeAndGenderClassifier
 
 cascPath = 'haarcascade_frontalface_default.xml'
 faceCascade = cv2.CascadeClassifier(cascPath)
